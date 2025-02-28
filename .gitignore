@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.bin
+*.env
+
+# Go build artifacts
+/bin/
+/pkg/
+/vendor/
+/dist/
+*.test
+*.a
+
+# Logs & Debugging
+*.log
+*.prof
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Dependency files
+go.work.sum
+
+# Air live reload config
+.air.toml
+
+# Fiber cache
+.fiber/
+
+# tmp
+tmp/
